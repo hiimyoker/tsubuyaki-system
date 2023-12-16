@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	background-color: #ffffff;
+	display: block;
+	background-color: #f6f3ec;
+}
+
+h1 {
+	margin: 0px;
+	text-align: center;
+	background-color: #99cd4e;
+	color: #dc5b21;
+	width: 100%;
+}
+
+nav {
+	background-color: #99cd4e;
+}
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0; width: 80%;
+    text-align: center;
+}
+
+nav li {
+    display: table-cell;
+    min-width: 50px;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #763A7A;
+    font-weight: bold;
+}
+
+nav a:hover{
+	background-color: #DFD297;
+	color: #0288AD;
+}
+
+body .content {
+	width: 60%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+body .content h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.5em;
+}
+
+body .content .tweet {
+	width: 100%;
+	background-color: #23790b;
+	color: #3de418;
+	font-size: 0.8em;
+
+	margin-bottom: 75px;
+	cursor: default;
+}
+
+/* tweet content */
+body .content .tweet p:before {
+	font-family: Georgia;
+	font-size: 40px;
+	line-height: 0;
+	display: inline-block;
+}
+
+/* name and time */
+body .content .tweet .username {
+	display: inline;
+	font-style: italic;
+    background-color: #23790b;
+	color: #3de418;
+	float: right;
+}
+
+input[type=text],input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #490edf;
+  color: white;
+  margin: 8px 0;
+  border: none;
+}
+
+
+.divform {
+  border-radius: 5px;
+  background-color: #d2d2d3;
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+h3 {
+	text-align: center;
+    color: #490edf;
+}
+
+.regist{
+	border-radius: 5px;
+	width: 40%;
+	background-color: #99cd4e;
+	margin: 0 auto;
+}
+
+.textarea{
+	width: 99%;
+	height: 300px;
+}
